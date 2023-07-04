@@ -9,31 +9,24 @@ const Team = () => {
       <>
         <section className='team background'>
           <div className='container'>
-            <Heading title='Our Featured Agents' subtitle='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.' />
+            <h1 style={{color: "black", textAlign: "center", margin: "5px", padding: "30px"}}>
+              Miben segíthetek?
+            </h1>
+            {/* <Heading title='Our Featured Agents' subtitle='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.' /> */}
   
             <div className='content mtop grid3'>
-              {terapia.map((val, index) => (
+              {terapia.map((item, index) => (
                 <div className='box' key={index}>
-                  <button className='btn3'>{val.list} Listings</button>
+                  <img src={item.cover} alt="" />
                   <div className='details'>
-                    <div className='img'>
-                      <img src={val.Image} alt='' />
-                      <i className='fa-solid fa-circle-check'></i>
+                      <h5>{item.name}</h5>
                     </div>
-                    <i className='fa fa-location-dot'></i>
-                    <label>{val.address}</label>
-                    <h4>{val.name}</h4>
-                    <div className='button flex'>
-                      <button>
-                        <i className='fa fa-envelope'></i>
-                        Message
-                      </button>
-                      <button className='btn4'>
-                        <i className='fa fa-phone-alt'></i>
-                      </button>
-                    </div>
+                    <p>
+                    <label>{item.Villas}</label>
+                    <label>{item.Offices}</label>
+                    <label>{item.Apartments}</label>
+                    </p>
                   </div>
-                </div>
               ))}
             </div>
           </div>

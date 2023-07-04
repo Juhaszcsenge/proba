@@ -8,6 +8,10 @@ import Header from './Component/Header/Header';
 import { Card } from 'react-bootstrap';
 import AboutCard from './Page/about/AboutCars';
 import Terapia from './Page/Terapia/Terapia';
+import PriceCard from './Page/Price/PriceCard';
+import Footer from './Component/Footer/Footer';
+import Contact from './Page/Contact/Contact';
+
 
 class App extends Component {
   render(): React.ReactNode {
@@ -16,7 +20,9 @@ class App extends Component {
                <Hero />
                <AboutCard/>
                <Terapia />
-               {/* <Fooldal/> */}
+               <PriceCard />
+               <Contact />
+               <Footer />
               {/* <Routes>
         <Route path='/'  element={<Fooldal></Fooldal>} />
         <Route path='Hibajelentes' element={<Hibajelentes></Hibajelentes>}  />

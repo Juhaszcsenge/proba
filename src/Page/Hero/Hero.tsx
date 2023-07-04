@@ -12,9 +12,9 @@ const Hero = () => {
             <Heading subtitle=''  title='Mazányi Judit Pszichológus' />
             <p className="valami" style={{alignItems: "center"}}>Önmagunk megismerése kaland, amely váratlan messzeségekbe és mélységekbe vezet. (C.G. Jung)</p>
             <div className='button'>
-              <button className='primary-btn' style={{ color: "white"}}>
+              {/* <button className='primary-btn' style={{ color: "white"}}>
                 GET STARTED NOW
-              </button>
+              </button> */}
             </div>
           </div>
         </div>

@@ -27,25 +27,28 @@ export const nav = [
 
   export const terapia = [
     {
-      list: "50",
-      Image: "/public/imam-fadly-UUACBQP62xw-unsplash.jpg",
-      address: "Liverpool, Canada",
-      name: "Sargam S. Singh",
-      // icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
+      id: 1,
+      name: "New Orleans, Louisiana",
+      Villas: "12 Villas",
+      Apartments: "10 Apartments",
+      Offices: "07 Offices",
+      cover: "csoportterapia-1.jpg",
     },
     {
-      list: "70",
-      Image: "/public/pszichologus.jpg",
-      address: "Montreal, Canada",
-      name: "Harijeet M. Siller",
-      // icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
+      id: 1,
+      name: "New Orleans, Louisiana",
+      Villas: "12 Villas",
+      Apartments: "10 Apartments",
+      Offices: "07 Offices",
+      cover: "parterapia.jpg",
     },
     {
-      list: "80",
-      Image: "/public/csoportterapia-1.jpg",
-      address: "Denever, USA",
-      name: "Anna K. Young",
-      // icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
+      id: 1,
+      name: "New Orleans, Louisiana",
+      Villas: "12 Villas",
+      Apartments: "10 Apartments",
+      Offices: "07 Offices",
+      cover: "pszichologus.jpg",
     },
     // {
     //   list: "51",
@@ -68,4 +71,84 @@ export const nav = [
     //   name: "Adam K. Jollio",
     //   icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
     // },
+  ]
+
+  export const price = [
+    {
+      plan: "Basic",
+      price: "29",
+      ptext: "per user, per month",
+      list: [
+        {
+          // icon: <i className='fa-solid fa-check'></i>,
+          text: "99.5% Uptime Guarantee",
+        },
+        {
+        //   icon: <i className='fa-solid fa-check'></i>,
+          text: "120GB CDN Bandwidth",
+        },
+        {
+          // icon: <i className='fa-solid fa-check'></i>,
+          text: "5GB Cloud Storage",
+        },
+        // { change: "color", icon: <i className='fa-solid fa-x'></i>, text: "Personal Help Support" },
+        // { change: "color", icon: <i className='fa-solid fa-x'></i>, text: "Enterprise SLA" },
+      ],
+    },
+    {
+      best: "Best Value",
+      plan: "Standard",
+      price: "49",
+      ptext: "per user, per month",
+      list: [
+        {
+          // icon: <i className='fa-solid fa-check'></i>,
+          text: "99.5% Uptime Guarantee",
+        },
+        {
+          // icon: <i className='fa-solid fa-check'></i>,
+          text: "150GB CDN Bandwidth",
+        },
+        {
+          // icon: <i className='fa-solid fa-check'></i>,
+          text: "10GB Cloud Storage",
+        },
+        {
+          // icon: <i className='fa-solid fa-check'></i>,
+          text: "Personal Help Support",
+        },
+        {
+          change: "color",
+          // icon: <i className='fa-solid fa-x'></i>,
+          text: "Enterprise SLA",
+        },
+      ],
+    },
+    {
+      plan: "Platinum",
+      price: "79",
+      ptext: "2 user, per month",
+      list: [
+        {
+          // icon: <i className='fa-solid fa-check'></i>,
+          text: "100% Uptime Guarantee",
+        },
+        {
+          // icon: <i className='fa-solid fa-check'></i>,
+          text: "200GB CDN Bandwidth",
+        },
+        {
+          // icon: <i className='fa-solid fa-check'></i>,
+          text: "20GB Cloud Storage",
+        },
+        {
+          // icon: <i className='fa-solid fa-check'></i>,
+          text: "Personal Help Support",
+        },
+        {
+          // icon: <i className='fa-solid fa-check'></i>,
+          text: "Enterprise SLA",
+        },
+      ],
+    },
   ]

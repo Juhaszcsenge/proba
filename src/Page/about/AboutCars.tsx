@@ -28,7 +28,7 @@ import Awrapper from "./Awrapper"
           </div>
         </div>
       </section>
-      <Awrapper />
+      {/* <Awrapper /> */}
     </>
   )
 }

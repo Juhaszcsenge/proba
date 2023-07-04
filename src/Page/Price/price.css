@@ -1,0 +1,82 @@
+.price {
+  text-align: center;
+}
+
+.price .content .box {
+  width: 31.5%;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 10px;
+  background: #F7FFE5;
+
+}
+
+.price .box:nth-child(1) .topbtn button,
+.price .box:nth-child(3) .topbtn button {
+  display: none;
+  height: 566px;
+}
+
+.price h3 {
+  font-size: 22px;
+}
+
+.price h1 {
+  font-size: 60px;
+}
+
+.price h1 span {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.price ul {
+  margin-top: 40px;
+}
+
+.price ul li {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.price label {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.price .btn5 {
+  width: 100%;
+}
+
+.background {
+  padding: 100px 0;
+  position: relative;
+  background: #F7FFE5;
+}
+
+.price .content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.price .content .box:nth-child(2) {
+  height: 600px;
+}
+
+/* Reszponzív stílusok */
+@media screen and (max-width: 1200px) {
+  .price .content .box {
+    width: 48%; /* Két kártya egy sorban */
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .price .content .box {
+    width: 100%; /* Egy kártya egy sorban */
+    height: auto; /* Visszaállítjuk a kártya magasságát */
+  }
+}
