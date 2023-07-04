@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import emailjs from "emailjs-com"; // itt az emailjs-com csomagra változtattam
-
+import "./Contact.css"
 
 
 const Result = () => {
@@ -37,28 +37,34 @@ function Contact() {
 
   return (
     <form action="" onSubmit={sendEmail} ref={form}>
-      <div className="formWord">
-        <h2>Say hello!</h2>
-        <span>Teljes Név</span>
+      <section className="formWord background">
+        <div className="container-contact">
+          <div className="wrap-contact">
+        <div className="contact-box">
+        <h2 style={{color: "white"}}>Say hello!</h2>
+        <span style={{color: "white"}}>Teljes Név</span>
         <br />
         <input className="input100" type="text" name="fullname" required />
         <br />
-        <span>Telefonszám</span>
+        <span style={{color: "white"}}>Telefonszám</span>
         <br />
         <input className="input100" type="text" name="phone" required />
         <br />
-        <span>Adja meg Email címét</span>
+        <span style={{color: "white"}}>Adja meg Email címét</span>
         <br />
         <input className="input100" type="text" name="email" required />
         <br />
-      </div>
-      <div className="formWord">
-        <span>Üzenet</span>
-        <input className="input100" type="text" name="message" required />
+        <span style={{color: "white"}}>Üzenet</span>
+        <br />
+        <input className="input100" type="textarea" name="message" required />
         <br />
         <button>Küldés</button>
+        <br />
         <div className="row">{result ? <Result /> : null}</div>
-      </div>
+        </div>
+        </div>
+        </div>
+      </section>
     </form>
   );
 }

@@ -1,0 +1,75 @@
+.background {
+    /* padding: 100px 0; */
+    position: relative;
+    background: #F7FFE5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-contact {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 15px; */
+    /* background-color: #07372A; */
+}
+
+.wrap-contact {
+    max-width: 600px;
+    width: 80%; /* Változtasd a szélességet igényednek megfelelően */
+    background-color: #07372A;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 25px; /* Növeld a padding értékét, hogy alacsonyabb legyen a konténer */
+}
+
+.formWord {
+    margin-bottom: 20px; /* Opcionális, adhat távolságot az elemek között */
+}
+
+/* Az input mezők arányosan nagyítása */
+.formWord input.input100 {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px; /* Kerekített sarkok beállítása */
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 1.2; /* Az input mező magassága */
+    background-color: #F7FFE5;
+}
+
+/* A 'Küldés' gomb arányosan nagyítása */
+.formWord button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border-radius: 20px; /* Kerekített sarkok beállítása */
+    background-color: #979e86;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Az üzenet szöveg balra igazítása */
+.formWord span {
+    display: block;
+    margin-bottom: 0px; /* Opcionális, adhat távolságot az elemek között */
+}
+
+/* Az eredmény szöveg középre igazítása */
+.row {
+    text-align: center;
+    color: white;
+}
