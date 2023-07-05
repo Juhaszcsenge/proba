@@ -11,6 +11,7 @@ import Terapia from './Page/Terapia/Terapia';
 import PriceCard from './Page/Price/PriceCard';
 import Footer from './Component/Footer/Footer';
 import Contact from './Page/Contact/Contact';
+import Idezet from './Page/Idezet/Idezet';
 
 
 class App extends Component {
@@ -21,6 +22,7 @@ class App extends Component {
                <AboutCard/>
                <Terapia />
                <PriceCard />
+               <Idezet />
                <Contact />
                <Footer />
               {/* <Routes>

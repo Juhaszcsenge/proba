@@ -4,24 +4,20 @@ export const nav = [
       path: "/",
     },
     {
-      text: "about",
-      path: "/about",
+      text: "rólam ",
+      path: "/rolam",
     },
     {
-      text: "services",
-      path: "/services",
+      text: "Terápiák",
+      path: "/terapiak",
     },
     {
-      text: "blog",
-      path: "/blog",
+      text: "Árak",
+      path: "/arak",
     },
     {
-      text: "pricing",
-      path: "/pricing",
-    },
-    {
-      text: "contact",
-      path: "/contact",
+      text: "Kapcsolat",
+      path: "/kapcsolat",
     },
   ]
 

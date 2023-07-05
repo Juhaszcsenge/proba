@@ -8,11 +8,10 @@ const PriceCard = () => {
     <>
     <section className='price padding'>
     <div className='container'>
-    <Heading title='Árlista' subtitle=''/>
-
-      <div className='content flex mtop'>
+    <h1 style={{color: "white", padding: "20px"}}>Árlista</h1>
+      <div className='content flex mtop' >
         {price.map((item, index) => (
-          <div className='box shadow' key={index}>
+          <div className='box shadow' key={index} style={{margin: "10px"}}>
             <div className='topbtn'>
               <button className='btn3'>{item.best}</button>
             </div>
@@ -29,10 +28,6 @@ const PriceCard = () => {
                 return (
                   <li>
                     <label
-                    //   style={{
-                    //     background: change === "color" ? "#dc35451f" : "#27ae601f",
-                    //     color: change === "color" ? "#dc3848" : "#27ae60",
-                    //   }}
                     >
                       {/* {icon} */}
                     </label>

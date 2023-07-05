@@ -10,7 +10,7 @@ const Hero = () => {
         <div className='conatiner' style={{alignItems: "center", textAlign: "center" }}>
           <div className='row' style={{alignItems: "center", justifyContent: "center"}}>
             <Heading subtitle=''  title='Mazányi Judit Pszichológus' />
-            <p className="valami" style={{alignItems: "center"}}>Önmagunk megismerése kaland, amely váratlan messzeségekbe és mélységekbe vezet. (C.G. Jung)</p>
+            <p className="valami" style={{alignItems: "center", color:"white"}}>Önmagunk megismerése kaland, amely váratlan messzeségekbe és mélységekbe vezet. (C.G. Jung)</p>
             <div className='button'>
               {/* <button className='primary-btn' style={{ color: "white"}}>
                 GET STARTED NOW
@@ -19,7 +19,7 @@ const Hero = () => {
           </div>
         </div>
       </section>
-      <div className='margin'></div>
+      {/* <div className='margin'></div> */}
     </>
   )
 }

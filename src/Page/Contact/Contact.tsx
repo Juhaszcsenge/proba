@@ -37,26 +37,18 @@ function Contact() {
 
   return (
     <form action="" onSubmit={sendEmail} ref={form}>
-      <section className="formWord background">
+      <section className="formWord background" style={{backgroundColor: "#07372A"}}>
+        <h1 className="kapcsolat" style={{color: "white"}}>Kapcsolat</h1>
         <div className="container-contact">
           <div className="wrap-contact">
         <div className="contact-box">
-        <h2 style={{color: "white"}}>Say hello!</h2>
-        <span style={{color: "white"}}>Teljes Név</span>
+        <h1 style={{color: "black"}}>Forduljon hozzám </h1>
+        <p>Kérdezzen vagy foglaljon időpontot! Veszély esetén hívja a 112-t vagy keresse fel a legközelebbi kórházat!</p>
+        <input className="input100" type="text" name="fullname" placeholder="Teljes név" required />
         <br />
-        <input className="input100" type="text" name="fullname" required />
+        <input className="input100" type="text" name="email" placeholder="Email" required />
         <br />
-        <span style={{color: "white"}}>Telefonszám</span>
-        <br />
-        <input className="input100" type="text" name="phone" required />
-        <br />
-        <span style={{color: "white"}}>Adja meg Email címét</span>
-        <br />
-        <input className="input100" type="text" name="email" required />
-        <br />
-        <span style={{color: "white"}}>Üzenet</span>
-        <br />
-        <input className="input100" type="textarea" name="message" required />
+        <textarea className="input100"  name="message" placeholder="Üzenet" required />
         <br />
         <button>Küldés</button>
         <br />
