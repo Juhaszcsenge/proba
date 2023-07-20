@@ -1,4 +1,5 @@
-#Saját ügyfélnek folyamtabn lévő weboldala ami fejlesztés alatt ál ügyfél igényeitől függően 
+#
+Saját ügyfélnek folyamatban lévő weboldala ami fejlesztés alatt ál ügyfél igényeitől függően 
 ## Available Scripts
 
 In the project directory, you can run:
